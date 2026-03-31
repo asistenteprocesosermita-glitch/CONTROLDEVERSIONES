@@ -23,7 +23,7 @@ if not api_key:
 # Configurar Gemini
 genai.configure(api_key=api_key)
 # Usamos Gemini 1.5 Flash por rapidez; para mayor precisión cambiar a "gemini-1.5-pro"
-model = genai.GenerativeModel("gemini-1.5-flash")
+model = genai.GenerativeModel("gemini-2.5-flash")
 
 # --- Funciones auxiliares ---
 def extraer_texto_pdf(pdf_bytes):
