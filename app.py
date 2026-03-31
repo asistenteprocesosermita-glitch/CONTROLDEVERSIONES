@@ -16,7 +16,7 @@ if not api_key:
     st.stop()
 
 genai.configure(api_key=api_key)
-model = genai.GenerativeModel("gemini-1.5-flash")  # o gemini-1.5-pro si prefieres
+model = genai.GenerativeModel("gemini-2.5-flash") 
 
 # Funciones
 def extraer_texto_pdf(pdf_bytes):
