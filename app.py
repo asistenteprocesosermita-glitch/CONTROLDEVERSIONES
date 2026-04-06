@@ -22,7 +22,7 @@ if not api_key:
 
 genai.configure(api_key=api_key)
 # CORRECCIÓN: usar modelo válido
-model = genai.GenerativeModel("gemini-1.5-flash")  # o "gemini-1.5-pro"
+model = genai.GenerativeModel("gemini-2.5-flash")  # o "gemini-1.5-pro"
 
 # --- Funciones de extracción y generación ---
 def extraer_texto_pdf(pdf_bytes):
